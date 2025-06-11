@@ -24,6 +24,7 @@ def initialize_db():
     """)
     conn.commit()
     conn.close()
+    print("Database initialized successfully.")
 
 # Function to register a user
 def register_user(email, password):
